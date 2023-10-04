@@ -1,4 +1,4 @@
-TAREFA
+TAREFA<br>
 Desenvolva um blog estático voltado à tecnologia usando HTML, CSS e Javascript, composto de duas páginas: a página inicial e página de visualização de um post específico. 
 
 A página inicial deve exibir todos os posts em formato de cards, apresentando o título, os primeiros caracteres, a data da postagem, a imagem, a categoria ao qual a postagem pertence e o número de acessos. Cada card de post deve ser clicável e direcionar o usuário para a página de visualização do post completo. Ao ser direcionado para a página, o número de visualizações deve ser incrementado. 
