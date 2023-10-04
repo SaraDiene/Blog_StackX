@@ -1,0 +1,199 @@
+/* Estilos para o layout básico */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(bg2.jpg);
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: larger;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+	transition: all 0.5s;
+}
+
+nav ul li a:hover {
+    color: #3088bb;
+    text-decoration: none;
+ 
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+.logo{
+    max-width: 100%;
+	-moz-transition: all 0.9s;
+	-webkit-transition: all 0.9s;
+	transition: all 0.9s;
+    cursor: pointer;
+}
+
+
+.logo:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/* Estilos para os cards dos posts */
+.post-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    -moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+    cursor: pointer;
+}
+
+.post-card:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);  
+
+}
+
+.post-card img {
+    max-width: 100%;
+}
+.post-card h2{
+    text-align: center;
+   
+}
+.date_card{
+    font-size: 0.8em;
+}
+
+.category_card{
+    display: inline;
+
+}
+
+.content_card{
+    font-size: 1.2em;
+    text-align: center;
+    font-size: 16px;
+       
+}
+
+.views{
+    display: inline;
+}
+
+/* Estilos para a página de visualização do post */
+.post-view {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    background-color: #fff;
+}
+
+.post-view h2{
+    text-align: center;
+}
+
+.post-view h1{
+    text-align: center;
+}
+
+.post-view p{
+    text-align: justify;
+    line-height: 25px;
+ 
+}
+
+.titulo{
+    font-weight: bold;
+}
+
+.img_post1{
+    width: 150px;
+    height: 50px;
+}
+
+.post-view table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+
+.post-view th, td{
+   padding: 10px;
+   text-align: center;
+
+}
+/* Footer*/
+.rodape-prin{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+}
+
+
+
+.icones-sociais{
+    margin: 0 auto;
+    
+}
+
+.icones-sociais li{
+    margin: 15px 0 10px 0;
+    }
+
+.icones-sociais a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 0 0 20px;
+ 
+}
+
+
+.icones-sociais img{
+    width: 30px;
+    -moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+    cursor: pointer;
+}
+
+.icones-sociais img:hover{
+    -moz-transform: scale(1.5);
+     -webkit-transform: scale(1.5);
+     transform: scale(1.5); 
+ }
